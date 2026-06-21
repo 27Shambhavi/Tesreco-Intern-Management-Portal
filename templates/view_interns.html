@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>View Interns</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<!-- ================= Sidebar ================= -->
+
+<div class="sidebar">
+
+    <div class="logo">
+
+        <img src="{{ url_for('static', filename='logo.jpg') }}" alt="TESRECO">
+
+        <h2>TESRECO</h2>
+
+        <p>Intern Management Portal</p>
+
+    </div>
+
+    <ul>
+
+        <li><a href="/">🏠 Dashboard</a></li>
+
+        <li><a href="/about">🏢 About</a></li>
+
+        <li><a href="/view-interns">👨‍🎓 View Interns</a></li>
+
+        <li><a href="/add-intern">➕ Register Intern</a></li>
+
+    </ul>
+
+</div>
+
+<!-- ================= Main ================= -->
+
+<div class="main">
+
+    <div class="topbar">
+
+        <h1>Registered Interns</h1>
+
+        <div class="profile">
+
+            🔔 Administrator
+
+        </div>
+
+    </div>
+
+    <div class="table-container">
+
+        <h2 style="margin-bottom:25px;color:#0F172A;">
+
+            Intern Directory
+
+        </h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>ID</th>
+
+                    <th>Name</th>
+
+                    <th>Email</th>
+
+                    <th>Domain</th>
+
+                    <th>Actions</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                {% for intern in interns %}
+
+                <tr>
+
+                    <td>{{ intern[0] }}</td>
+
+                    <td>{{ intern[1] }}</td>
+
+                    <td>{{ intern[2] }}</td>
+
+                    <td>{{ intern[3] }}</td>
+
+                    <td>
+
+                        <a class="btn edit"
+                           href="/edit-intern/{{ intern[0] }}">
+
+                           Edit
+
+                        </a>
+
+                        <a class="btn delete"
+                           href="/delete-intern/{{ intern[0] }}">
+
+                           Delete
+
+                        </a>
+
+                    </td>
+
+                </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="footer">
+
+        © 2026 TESRECO Technologies | Internship Management Portal
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Edit Intern</title>
+
+<link
+rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<header>
+
+<img
+src="{{ url_for('static', filename='logo.jpg') }}"
+alt="TESRECO Logo">
+
+<h1>Edit Intern Details</h1>
+
+</header>
+
+<nav>
+
+<a href="/">Home</a>
+
+<a href="/view-interns">View Interns</a>
+
+</nav>
+
+<div class="container">
+
+<form method="POST">
+
+<label>Name</label>
+
+<input
+type="text"
+name="name"
+value="{{ intern[1] }}"
+required>
+
+<label>Email</label>
+
+<input
+type="email"
+name="email"
+value="{{ intern[2] }}"
+required>
+
+<label>Domain</label>
+
+<input
+type="text"
+name="domain"
+value="{{ intern[3] }}"
+required>
+
+<button type="submit">
+
+Update Intern
+
+</button>
+
+</form>
+
+</div>
+
+<footer>
+
+TESRECO Technologies © 2026
+
+</footer>
+
+</body>
+
+</html>

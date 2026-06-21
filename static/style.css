@@ -1,0 +1,861 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:#eef3f8;
+
+    display:flex;
+
+    min-height:100vh;
+
+    overflow-x:hidden;
+
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+.sidebar{
+
+    width:290px;
+
+    height:100vh;
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    background:#0F172A;
+
+    color:white;
+
+    box-shadow:8px 0 25px rgba(0,0,0,.18);
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+.logo{
+
+    width:100%;
+
+    text-align:center;
+
+    padding:35px 20px;
+
+}
+
+.logo img{
+
+    width:220px;
+
+    height:auto;
+
+    border:none;
+
+    border-radius:0;
+
+    object-fit:contain;
+
+    background:none;
+
+    box-shadow:none;
+
+}
+
+.logo img:hover{
+
+    transform:scale(1.05);
+
+}
+
+.logo h2{
+
+    margin-top:20px;
+
+    font-size:32px;
+
+    font-weight:800;
+
+    letter-spacing:2px;
+
+}
+
+.logo p{
+
+    margin-top:8px;
+
+    color:#CBD5E1;
+
+    font-size:15px;
+
+}
+
+/* ===========================
+   MENU
+=========================== */
+
+.sidebar ul{
+
+    list-style:none;
+
+    width:100%;
+
+    margin-top:25px;
+
+}
+
+.sidebar ul li{
+
+    margin:12px 20px;
+
+}
+
+.sidebar ul li a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    padding:16px 22px;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    border-radius:14px;
+
+    transition:.35s;
+
+}
+
+.sidebar ul li a:hover{
+
+    background:#2563EB;
+
+    transform:translateX(8px);
+
+    box-shadow:0 8px 20px rgba(37,99,235,.4);
+
+}
+
+/* ===========================
+   MAIN
+=========================== */
+
+.main{
+
+    margin-left:290px;
+
+    width:calc(100% - 290px);
+
+}
+
+/* ===========================
+   TOPBAR
+=========================== */
+
+.topbar{
+
+    height:80px;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 40px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.topbar h1{
+
+    font-size:30px;
+
+    color:#0F172A;
+
+    font-weight:700;
+
+}
+
+.profile{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.profile span{
+
+    font-weight:600;
+
+    color:#334155;
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    margin:25px;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:35px 45px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.hero-left{
+
+    width:65%;
+
+}
+
+.hero-left h1{
+
+    color:#0F172A;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.hero-left h2{
+
+    color:#2563EB;
+
+    font-size:22px;
+
+    margin-bottom:15px;
+
+}
+
+.hero-left p{
+
+    color:#64748B;
+
+    line-height:1.8;
+
+    font-size:15px;
+
+}
+
+.hero-buttons{
+
+    margin-top:25px;
+
+}
+
+.hero-buttons button{
+
+    padding:12px 24px;
+
+    margin-right:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.hero-buttons button:first-child{
+
+    background:#2563EB;
+
+    color:white;
+
+}
+
+.hero-buttons button:last-child{
+
+    background:#EEF4FF;
+
+    color:#2563EB;
+
+}
+
+.hero-buttons button:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.hero-right{
+
+    width:30%;
+
+    text-align:center;
+
+}
+
+.hero-right h3{
+
+    font-size:70px;
+
+}
+
+.hero-right p{
+
+    margin-top:15px;
+
+    color:#64748B;
+
+}
+/* ===========================
+   DASHBOARD CARDS
+=========================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    margin:35px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    cursor:pointer;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.card h3{
+
+    font-size:55px;
+
+    margin-bottom:15px;
+
+}
+
+.card h2{
+
+    color:#2563EB;
+
+    font-size:24px;
+
+    margin-bottom:10px;
+
+}
+
+.card p{
+
+    color:#64748B;
+
+    font-size:15px;
+
+}
+
+
+/* ===========================
+   RECENT ACTIVITY
+=========================== */
+
+.activity{
+
+    background:white;
+
+    margin:35px;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.activity h2{
+
+    color:#0F172A;
+
+    margin-bottom:25px;
+
+}
+
+.activity ul{
+
+    list-style:none;
+
+}
+
+.activity ul li{
+
+    padding:18px;
+
+    border-bottom:1px solid #E2E8F0;
+
+    color:#475569;
+
+    transition:.3s;
+
+}
+
+.activity ul li:hover{
+
+    background:#F8FAFC;
+
+    padding-left:25px;
+
+}
+
+
+/* ===========================
+   FORM BOX
+=========================== */
+
+.form-box{
+
+    width:700px;
+
+    margin:50px auto;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.1);
+
+}
+
+.form-box h1{
+
+    margin-bottom:25px;
+
+    color:#0F172A;
+
+}
+
+.form-box label{
+
+    display:block;
+
+    margin-top:18px;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.form-box input{
+
+    width:100%;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    border:1px solid #CBD5E1;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.form-box input:focus{
+
+    outline:none;
+
+    border-color:#2563EB;
+
+    box-shadow:0 0 10px rgba(37,99,235,.2);
+
+}
+
+.form-box button{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#2563EB;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.form-box button:hover{
+
+    background:#1D4ED8;
+
+}
+
+
+/* ===========================
+   TABLE
+=========================== */
+
+.table-container{
+
+    margin:35px;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    overflow-x:auto;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+table th{
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:18px;
+
+    font-size:16px;
+
+}
+
+table td{
+
+    padding:18px;
+
+    text-align:center;
+
+    border-bottom:1px solid #E2E8F0;
+
+}
+
+table tr:hover{
+
+    background:#F8FAFC;
+
+}
+
+
+/* ===========================
+   ACTION BUTTONS
+=========================== */
+
+.btn{
+
+    display:inline-block;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    color:white;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.edit{
+
+    background:#0EA5E9;
+
+}
+
+.delete{
+
+    background:#EF4444;
+
+}
+
+.edit:hover{
+
+    background:#0284C7;
+
+}
+
+.delete:hover{
+
+    background:#DC2626;
+
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+
+    text-align:center;
+
+    padding:25px;
+
+    color:#64748B;
+
+    font-size:15px;
+
+}
+
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#E2E8F0;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563EB;
+
+    border-radius:10px;
+
+}
+
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:1200px){
+
+.cards{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.hero p{
+
+width:100%;
+
+}
+
+}
+
+
+@media(max-width:900px){
+
+.sidebar{
+
+width:100px;
+
+}
+
+.logo h2,
+.logo p{
+
+display:none;
+
+}
+
+.sidebar ul li a{
+
+justify-content:center;
+
+font-size:14px;
+
+}
+
+.main{
+
+margin-left:100px;
+
+width:calc(100% - 100px);
+
+}
+
+.cards{
+
+grid-template-columns:1fr;
+
+}
+
+.hero{
+
+padding:35px;
+
+}
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+.hero h2{
+
+font-size:26px;
+
+}
+
+.form-box{
+
+width:90%;
+
+}
+
+}
+
+
+@media(max-width:600px){
+
+.topbar{
+
+padding:15px;
+
+}
+
+.topbar h1{
+
+font-size:20px;
+
+}
+
+.hero{
+
+margin:15px;
+
+}
+
+.cards{
+
+margin:15px;
+
+}
+
+.activity{
+
+margin:15px;
+
+}
+
+.table-container{
+
+margin:15px;
+
+}
+
+}

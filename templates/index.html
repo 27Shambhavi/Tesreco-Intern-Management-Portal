@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TESRECO Dashboard</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <!-- ================= Sidebar ================= -->
+
+    <div class="sidebar">
+
+        <div class="logo">
+
+            <img src="{{ url_for('static', filename='logo.jpg') }}" alt="TESRECO Logo">
+
+            <h2>TESRECO</h2>
+
+            <p>Intern Management Portal</p>
+
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="/">
+                    🏠 Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="/about">
+                    ℹ️ About
+                </a>
+            </li>
+
+            <li>
+                <a href="/view-interns">
+                    👨‍🎓 Interns
+                </a>
+            </li>
+
+            <li>
+                <a href="/add-intern">
+                    ➕ Register Intern
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- ================= Main ================= -->
+
+    <div class="main">
+
+        <!-- ================= Top Bar ================= -->
+
+        <div class="topbar">
+
+            <h1>Intern Management Dashboard</h1>
+
+            <div class="profile">
+
+                🔔
+
+                <span>Administrator</span>
+
+            </div>
+
+        </div>
+
+        <!-- ================= Hero Section ================= -->
+
+        <div class="hero">
+
+<div class="hero-left">
+
+<h1>
+
+Welcome Back 👋
+
+</h1>
+
+<h2>
+
+TESRECO Technologies
+
+</h2>
+
+<p>
+
+Manage interns, attendance, mentors and reports
+through one centralized dashboard.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="/add-intern">
+
+<button>
+
+Register Intern
+
+</button>
+
+</a>
+
+<a href="/view-interns">
+
+<button>
+
+View Interns
+
+</button>
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<h3>
+
+👨‍💻
+
+</h3>
+
+<p>
+
+Intern Management
+
+</p>
+
+</div>
+
+</div>
+
+        <!-- ================= Dashboard Cards ================= -->
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>👨‍🎓</h3>
+
+                <h2>Interns</h2>
+
+                <p>
+
+                    Register, update and manage intern records.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>👨‍🏫</h3>
+
+                <h2>Mentors</h2>
+
+                <p>
+
+                    Assign mentors and manage specializations.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>📅</h3>
+
+                <h2>Attendance</h2>
+
+                <p>
+
+                    Track attendance and monitor participation.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>📊</h3>
+
+                <h2>Reports</h2>
+
+                <p>
+
+                    Generate internship performance reports.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ================= Recent Activity ================= -->
+
+        <div class="activity">
+
+            <h2>
+
+                Recent Activity
+
+            </h2>
+
+            <ul>
+
+                <li>
+
+                    ✅ New Intern Registration Completed
+
+                </li>
+
+                <li>
+
+                    ✅ Mentor Assigned Successfully
+
+                </li>
+
+                <li>
+
+                    ✅ Attendance Updated
+
+                </li>
+
+                <li>
+
+                    ✅ Performance Reports Generated
+
+                </li>
+
+                <li>
+
+                    ✅ Database Synced Successfully
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- ================= Footer ================= -->
+
+        <div class="footer">
+
+            © 2026 TESRECO Technologies |
+            Internship Management Portal |
+            Developed using Flask & SQLite
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
