@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Intern</title>
+    <title>Edit Mentor</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
@@ -29,28 +29,34 @@
 
 <div class="main">
     <div class="topbar">
-        <h1>Edit Intern Details</h1>
+        <h1>Edit Mentor</h1>
         <div class="profile">🔔 Administrator</div>
     </div>
 
     <div class="form-box compact-form">
-        <h1>Update Intern Details</h1>
+        <h1>Update Mentor Details</h1>
 
         <form method="POST">
-            <label>Name</label>
-            <input type="text" name="name" value="{{ intern['name'] }}" required>
+            <label>Mentor Name</label>
+            <input type="text" name="name" value="{{ mentor['name'] }}" required>
+
+            <label>Specialization</label>
+            <input type="text" name="specialization" value="{{ mentor['specialization'] }}" required>
+
+            <label>Experience (Years)</label>
+            <input type="number" name="experience" value="{{ mentor['experience'] }}" min="0" required>
 
             <label>Email</label>
-            <input type="email" name="email" value="{{ intern['email'] }}" required>
+            <input type="email" name="email" value="{{ mentor['email'] }}" required>
 
-            <label>Domain</label>
-            <input type="text" name="domain" value="{{ intern['domain'] }}" required>
+            <label>Phone Number</label>
+            <input type="tel" name="phone" value="{{ mentor['phone'] }}" required>
 
-            <button type="submit">Update Intern</button>
+            <button type="submit">Update Mentor</button>
         </form>
     </div>
 
-    <div class="footer">TESRECO Technologies © 2026</div>
+    <div class="footer">© 2026 TESRECO Technologies | Internship Management Portal</div>
 </div>
 
 </body>

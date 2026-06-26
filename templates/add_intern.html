@@ -2,112 +2,120 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Register Intern</title>
-
-    <link rel="stylesheet"
-          href="{{ url_for('static', filename='style.css') }}">
-
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
 
-<!-- ================= Sidebar ================= -->
-
 <div class="sidebar">
-
     <div class="logo">
-
         <img src="{{ url_for('static', filename='logo.jpg') }}" alt="TESRECO">
-
         <h2>TESRECO</h2>
-
         <p>Intern Management Portal</p>
-
     </div>
 
     <ul>
-
-        <li><a href="/">🏠 Dashboard</a></li>
-
-        <li><a href="/about">🏢 About</a></li>
-
-        <li><a href="/view-interns">👨‍🎓 Interns</a></li>
-
-        <li><a href="/add-intern">➕ Register Intern</a></li>
-
+        <li><a href="/">&#127968; Dashboard</a></li>
+        <li><a href="/about">&#127970; About</a></li>
+        <li><a href="/add-intern">&#10133; Register Intern</a></li>
+        <li><a href="/view-interns">&#128104;&#8205;&#127891; View Interns</a></li>
+        <li><a href="/add-mentor">&#128104;&#8205;&#127979; Add Mentor</a></li>
+        <li><a href="/view-mentors">&#128203; View Mentors</a></li>
     </ul>
-
 </div>
-
-<!-- ================= Main ================= -->
 
 <div class="main">
-
     <div class="topbar">
-
         <h1>Register New Intern</h1>
+        <div class="profile">&#128276; Administrator</div>
+    </div>
 
-        <div class="profile">
+    <div class="dynamic-form-wrap">
+        <div class="form-box compact-form dynamic-form-card">
+            <div class="form-title-row">
+                <div>
+                    <span class="form-kicker">Intern Onboarding</span>
+                    <h1>Intern Registration Form</h1>
+                </div>
+                <span class="form-status" id="internProgress">0%</span>
+            </div>
 
-            🔔 Administrator
+            <div class="form-progress"><span id="internProgressBar"></span></div>
 
+            <form action="/add-intern" method="POST" data-dynamic-form="intern">
+                <div class="field-row">
+                    <label>Full Name</label>
+                    <input type="text" name="name" placeholder="Enter Intern Name" data-preview="internName" required>
+                </div>
+
+                <div class="field-row">
+                    <label>Email Address</label>
+                    <input type="email" name="email" placeholder="Enter Email" data-preview="internEmail" required>
+                </div>
+
+                <div class="field-row">
+                    <label>Domain</label>
+                    <input type="text" name="domain" placeholder="Example: Data Science" data-preview="internDomain" required>
+                </div>
+
+                <button type="submit">Register Intern</button>
+            </form>
         </div>
 
+        <aside class="form-preview-card intern-preview">
+            <div class="preview-avatar">IN</div>
+            <span class="badge pending">&#128993; New Intern</span>
+            <h2 id="internName">Intern Name</h2>
+            <p id="internEmail">email@tesreco.com</p>
+
+            <div class="preview-meta">
+                <span>Domain</span>
+                <strong id="internDomain">Not Selected</strong>
+            </div>
+
+            <div class="preview-strip">
+                <span class="strip-dot active"></span>
+                <span class="strip-dot"></span>
+                <span class="strip-dot"></span>
+            </div>
+        </aside>
     </div>
 
-    <div class="form-box">
-
-        <h1>Intern Registration Form</h1>
-
-        <form action="/add-intern" method="POST">
-
-            <label>Full Name</label>
-
-            <input
-                type="text"
-                name="name"
-                placeholder="Enter Intern Name"
-                required>
-
-            <label>Email Address</label>
-
-            <input
-                type="email"
-                name="email"
-                placeholder="Enter Email"
-                required>
-
-            <label>Domain</label>
-
-            <input
-                type="text"
-                name="domain"
-                placeholder="Example: Data Science"
-                required>
-
-            <button type="submit">
-
-                Register Intern
-
-            </button>
-
-        </form>
-
-    </div>
-
-    <div class="footer">
-
-        © 2026 TESRECO Technologies | Internship Management Portal
-
-    </div>
-
+    <div class="footer">&copy; 2026 TESRECO Technologies | Internship Management Portal</div>
 </div>
 
-</body>
+<script>
+    const internForm = document.querySelector('[data-dynamic-form="intern"]');
+    const internInputs = internForm.querySelectorAll('input[required]');
+    const internProgress = document.getElementById('internProgress');
+    const internProgressBar = document.getElementById('internProgressBar');
 
+    function updateInternForm() {
+        let filled = 0;
+
+        internInputs.forEach((input) => {
+            const target = document.getElementById(input.dataset.preview);
+            if (input.value.trim()) {
+                filled += 1;
+                if (target) {
+                    target.textContent = input.value.trim();
+                }
+            } else if (target) {
+                target.textContent = target.id === 'internDomain' ? 'Not Selected' : target.id === 'internEmail' ? 'email@tesreco.com' : 'Intern Name';
+            }
+        });
+
+        const progress = Math.round((filled / internInputs.length) * 100);
+        internProgress.textContent = progress + '%';
+        internProgressBar.style.width = progress + '%';
+    }
+
+    internInputs.forEach((input) => input.addEventListener('input', updateInternForm));
+    updateInternForm();
+</script>
+
+</body>
 </html>

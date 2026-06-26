@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>View Interns</title>
+    <title>View Mentors</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
@@ -29,49 +29,44 @@
 
 <div class="main">
     <div class="topbar">
-        <h1>Registered Interns</h1>
+        <h1>Mentor Directory</h1>
         <div class="profile">🔔 Administrator</div>
     </div>
 
     <div class="table-container">
         <div class="section-heading">
-            <h2>Intern Directory</h2>
-            <a class="btn edit" href="/assign-mentor">Assign Mentor</a>
+            <h2>Registered Mentors</h2>
+            <a class="btn edit" href="/add-mentor">Add Mentor</a>
         </div>
 
         <table>
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Name</th>
+                    <th>Mentor Name</th>
+                    <th>Specialization</th>
+                    <th>Experience</th>
                     <th>Email</th>
-                    <th>Domain</th>
-                    <th>Assigned Mentor</th>
-                    <th>Actions</th>
+                    <th>Phone</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                 </tr>
             </thead>
             <tbody>
-                {% for intern in interns %}
+                {% for mentor in mentors %}
                 <tr>
-                    <td>{{ intern['id'] }}</td>
-                    <td>{{ intern['name'] }}</td>
-                    <td>{{ intern['email'] }}</td>
-                    <td>{{ intern['domain'] }}</td>
-                    <td>
-                        {% if intern['mentor_name'] %}
-                        <span class="badge assigned">🟢 {{ intern['mentor_name'] }}</span>
-                        {% else %}
-                        <span class="badge pending">🟡 Not Assigned Yet</span>
-                        {% endif %}
-                    </td>
-                    <td class="action-group">
-                        <a class="btn edit" href="/edit-intern/{{ intern['id'] }}">Edit</a>
-                        <a class="btn delete" href="/delete-intern/{{ intern['id'] }}">Delete</a>
-                    </td>
+                    <td>{{ mentor['mentor_id'] }}</td>
+                    <td>{{ mentor['name'] }}</td>
+                    <td>{{ mentor['specialization'] }}</td>
+                    <td>{{ mentor['experience'] }} Years</td>
+                    <td>{{ mentor['email'] }}</td>
+                    <td>{{ mentor['phone'] }}</td>
+                    <td><a class="btn edit" href="/edit-mentor/{{ mentor['mentor_id'] }}">Edit</a></td>
+                    <td><a class="btn delete" href="/delete-mentor/{{ mentor['mentor_id'] }}">Delete</a></td>
                 </tr>
                 {% else %}
                 <tr>
-                    <td colspan="6" class="empty-state">No interns registered yet.</td>
+                    <td colspan="8" class="empty-state">No mentors registered yet.</td>
                 </tr>
                 {% endfor %}
             </tbody>

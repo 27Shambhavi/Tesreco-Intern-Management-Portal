@@ -624,3 +624,357 @@
 2026-06-21 19:05:38,450 | INFO | 127.0.0.1 - - [21/Jun/2026 19:05:38] "GET / HTTP/1.1" 200 -
 2026-06-21 19:05:38,497 | INFO | 127.0.0.1 - - [21/Jun/2026 19:05:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2026-06-21 19:05:38,501 | INFO | 127.0.0.1 - - [21/Jun/2026 19:05:38] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:11:46,866 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-22 20:11:46,866 | INFO | [33mPress CTRL+C to quit[0m
+2026-06-22 20:11:46,898 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-22 20:11:47,381 | WARNING |  * Debugger is active!
+2026-06-22 20:11:47,385 | INFO |  * Debugger PIN: 103-344-088
+2026-06-22 20:12:00,867 | INFO |  * Detected change in 'C:\\Users\\Lenovo\\Downloads\\Intern_Management_Portal\\database.py', reloading
+2026-06-22 20:12:01,107 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-22 20:12:01,743 | WARNING |  * Debugger is active!
+2026-06-22 20:12:01,748 | INFO |  * Debugger PIN: 103-344-088
+2026-06-22 20:12:19,064 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:19] "GET / HTTP/1.1" 200 -
+2026-06-22 20:12:19,302 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:19] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:12:19,304 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-22 20:12:19,551 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-22 20:12:31,205 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:31] "GET / HTTP/1.1" 200 -
+2026-06-22 20:12:31,241 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-22 20:12:31,248 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:31] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:12:32,556 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:32] "GET /about HTTP/1.1" 200 -
+2026-06-22 20:12:32,584 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-22 20:12:32,590 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:32] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:12:47,619 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:47] "GET / HTTP/1.1" 200 -
+2026-06-22 20:12:47,650 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-22 20:12:47,653 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:47] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:12:56,419 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:56] "GET /add-intern HTTP/1.1" 200 -
+2026-06-22 20:12:56,444 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-22 20:12:56,451 | INFO | 127.0.0.1 - - [22/Jun/2026 20:12:56] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:13:18,807 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:18] "[32mPOST /add-intern HTTP/1.1[0m" 302 -
+2026-06-22 20:13:18,829 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:18] "GET /view-interns HTTP/1.1" 200 -
+2026-06-22 20:13:18,860 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:18] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:13:18,860 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-22 20:13:31,709 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:31] "GET /view-interns HTTP/1.1" 200 -
+2026-06-22 20:13:31,758 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-22 20:13:31,760 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:31] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:13:32,605 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:32] "GET /about HTTP/1.1" 200 -
+2026-06-22 20:13:32,628 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-22 20:13:32,634 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:32] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:13:33,571 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:33] "GET / HTTP/1.1" 200 -
+2026-06-22 20:13:33,601 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-22 20:13:33,603 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:33] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:13:49,787 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:49] "GET /about HTTP/1.1" 200 -
+2026-06-22 20:13:49,840 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-22 20:13:49,841 | INFO | 127.0.0.1 - - [22/Jun/2026 20:13:49] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:14:06,803 | INFO | 127.0.0.1 - - [22/Jun/2026 20:14:06] "GET / HTTP/1.1" 200 -
+2026-06-22 20:14:06,866 | INFO | 127.0.0.1 - - [22/Jun/2026 20:14:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-22 20:14:06,872 | INFO | 127.0.0.1 - - [22/Jun/2026 20:14:06] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-22 20:14:19,563 | INFO |  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\__init__.py', reloading
+2026-06-22 20:14:19,792 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-22 20:14:20,607 | WARNING |  * Debugger is active!
+2026-06-22 20:14:20,612 | INFO |  * Debugger PIN: 103-344-088
+2026-06-22 20:14:20,782 | INFO |  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2026-06-22 20:14:20,855 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-22 20:14:21,165 | WARNING |  * Debugger is active!
+2026-06-22 20:14:21,168 | INFO |  * Debugger PIN: 103-344-088
+2026-06-26 16:33:18,996 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-26 16:33:18,996 | INFO | [33mPress CTRL+C to quit[0m
+2026-06-26 16:33:19,024 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-26 16:33:19,304 | WARNING |  * Debugger is active!
+2026-06-26 16:33:19,304 | INFO |  * Debugger PIN: 112-505-496
+2026-06-26 16:33:41,987 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:41] "GET / HTTP/1.1" 200 -
+2026-06-26 16:33:42,177 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:33:42,179 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:42] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:33:42,336 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-26 16:33:46,391 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:46] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:33:46,417 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:33:46,425 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:46] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:33:47,939 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:47] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:33:47,994 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:33:47,997 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:47] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:33:48,675 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:48] "GET / HTTP/1.1" 200 -
+2026-06-26 16:33:48,715 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:33:48,717 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:48] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:33:49,847 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:49] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:33:49,905 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:33:49,907 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:49] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:33:52,358 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:52] "GET / HTTP/1.1" 200 -
+2026-06-26 16:33:52,423 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:33:52,427 | INFO | 127.0.0.1 - - [26/Jun/2026 16:33:52] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:35:19,717 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:19] "GET /about HTTP/1.1" 200 -
+2026-06-26 16:35:19,762 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:35:19,767 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:19] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:35:23,826 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:23] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:35:23,861 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:35:23,871 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:23] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:35:24,780 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:24] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:35:24,828 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:35:24,830 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:24] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:35:26,641 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:26] "GET / HTTP/1.1" 200 -
+2026-06-26 16:35:26,672 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:35:26,674 | INFO | 127.0.0.1 - - [26/Jun/2026 16:35:26] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:35:29,083 | INFO |  * Detected change in 'C:\\Users\\Lenovo\\Downloads\\Intern_Management_Portal\\app.py', reloading
+2026-06-26 16:35:29,086 | INFO |  * Detected change in 'C:\\Users\\Lenovo\\Downloads\\Intern_Management_Portal\\database.py', reloading
+2026-06-26 16:35:29,177 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-26 16:35:29,886 | WARNING |  * Debugger is active!
+2026-06-26 16:35:29,890 | INFO |  * Debugger PIN: 112-505-496
+2026-06-26 16:35:44,755 | INFO |  * Detected change in 'C:\\Users\\Lenovo\\Downloads\\Intern_Management_Portal\\app.py', reloading
+2026-06-26 16:35:44,757 | INFO |  * Detected change in 'C:\\Users\\Lenovo\\Downloads\\Intern_Management_Portal\\app.py', reloading
+2026-06-26 16:35:44,910 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-26 16:35:45,588 | WARNING |  * Debugger is active!
+2026-06-26 16:35:45,595 | INFO |  * Debugger PIN: 112-505-496
+2026-06-26 16:37:13,957 | INFO |  * Detected change in 'C:\\Users\\Lenovo\\Downloads\\Intern_Management_Portal\\database.py', reloading
+2026-06-26 16:37:14,014 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-26 16:37:14,374 | WARNING |  * Debugger is active!
+2026-06-26 16:37:14,378 | INFO |  * Debugger PIN: 112-505-496
+2026-06-26 16:39:07,195 | INFO |  * Detected change in 'C:\\Users\\Lenovo\\Downloads\\Intern_Management_Portal\\app.py', reloading
+2026-06-26 16:39:07,264 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-26 16:39:07,630 | WARNING |  * Debugger is active!
+2026-06-26 16:39:07,630 | INFO |  * Debugger PIN: 112-505-496
+2026-06-26 16:39:34,329 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:34] "GET / HTTP/1.1" 200 -
+2026-06-26 16:39:34,481 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:34] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:39:34,485 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:39:36,381 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:36] "GET / HTTP/1.1" 200 -
+2026-06-26 16:39:36,431 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:39:36,433 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:36] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:39:38,066 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:38] "GET /about HTTP/1.1" 200 -
+2026-06-26 16:39:38,111 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:39:38,115 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:38] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:39:40,712 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:40] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:39:40,744 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:39:40,747 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:40] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:39:43,046 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:43] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:39:43,075 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:39:43,079 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:43] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:39:44,810 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:44] "GET / HTTP/1.1" 200 -
+2026-06-26 16:39:44,876 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:39:44,878 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:44] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:39:47,495 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:47] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:39:47,539 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:39:47,543 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:47] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:39:48,748 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:48] "GET / HTTP/1.1" 200 -
+2026-06-26 16:39:48,796 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:39:48,799 | INFO | 127.0.0.1 - - [26/Jun/2026 16:39:48] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:42:22,956 | INFO | 127.0.0.1 - - [26/Jun/2026 16:42:22] "GET / HTTP/1.1" 200 -
+2026-06-26 16:42:22,985 | INFO | 127.0.0.1 - - [26/Jun/2026 16:42:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:42:22,992 | INFO | 127.0.0.1 - - [26/Jun/2026 16:42:22] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:43:53,492 | INFO | 127.0.0.1 - - [26/Jun/2026 16:43:53] "GET / HTTP/1.1" 200 -
+2026-06-26 16:43:53,519 | INFO | 127.0.0.1 - - [26/Jun/2026 16:43:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:43:53,524 | INFO | 127.0.0.1 - - [26/Jun/2026 16:43:53] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:43:57,580 | INFO | 127.0.0.1 - - [26/Jun/2026 16:43:57] "GET /view-mentors HTTP/1.1" 200 -
+2026-06-26 16:43:57,617 | INFO | 127.0.0.1 - - [26/Jun/2026 16:43:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:43:57,629 | INFO | 127.0.0.1 - - [26/Jun/2026 16:43:57] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:03,948 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:03] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:44:03,998 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:44:04,000 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:04] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:08,832 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:08] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:44:08,892 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:44:08,893 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:08] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:09,925 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:09] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:44:09,951 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:44:09,957 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:09] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:13,064 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:13] "GET /assign-mentor HTTP/1.1" 200 -
+2026-06-26 16:44:13,115 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:13] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-26 16:44:13,117 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:13] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:15,605 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:15] "GET / HTTP/1.1" 200 -
+2026-06-26 16:44:15,667 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:44:15,692 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:15] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:16,810 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:16] "GET /about HTTP/1.1" 200 -
+2026-06-26 16:44:16,872 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:44:16,878 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:16] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:17,920 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:17] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:44:17,985 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:44:17,988 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:17] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:18,928 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:18] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:44:18,971 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:44:18,976 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:18] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:19,816 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:19] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:44:19,884 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:44:19,887 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:19] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:21,524 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:21] "GET /view-mentors HTTP/1.1" 200 -
+2026-06-26 16:44:21,576 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:44:21,581 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:21] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:23,286 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:23] "GET / HTTP/1.1" 200 -
+2026-06-26 16:44:23,342 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:44:23,346 | INFO | 127.0.0.1 - - [26/Jun/2026 16:44:23] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:44:40,532 | INFO |  * Detected change in 'C:\\Users\\Lenovo\\Downloads\\Intern_Management_Portal\\app.py', reloading
+2026-06-26 16:44:40,590 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-26 16:44:40,900 | WARNING |  * Debugger is active!
+2026-06-26 16:44:40,907 | INFO |  * Debugger PIN: 112-505-496
+2026-06-26 16:45:45,476 | INFO | 127.0.0.1 - - [26/Jun/2026 16:45:45] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:45:45,492 | INFO | 127.0.0.1 - - [26/Jun/2026 16:45:45] "GET /view-mentors HTTP/1.1" 200 -
+2026-06-26 16:46:14,187 | INFO |  * Detected change in 'C:\\Users\\Lenovo\\Downloads\\Intern_Management_Portal\\database.py', reloading
+2026-06-26 16:46:14,245 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-26 16:46:14,651 | WARNING |  * Debugger is active!
+2026-06-26 16:46:14,652 | INFO |  * Debugger PIN: 112-505-496
+2026-06-26 16:46:32,297 | INFO | 127.0.0.1 - - [26/Jun/2026 16:46:32] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:47:07,870 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:07] "GET / HTTP/1.1" 200 -
+2026-06-26 16:47:08,071 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:08] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-26 16:47:08,079 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:08] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:47:10,443 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:10] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:47:10,500 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:47:10,504 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:10] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:47:12,026 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:12] "GET / HTTP/1.1" 200 -
+2026-06-26 16:47:12,089 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:47:12,091 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:12] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:47:13,147 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:13] "GET /assign-mentor HTTP/1.1" 200 -
+2026-06-26 16:47:13,175 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:47:13,177 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:13] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:47:21,682 | INFO | Mentor Assigned
+2026-06-26 16:47:21,683 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:21] "[32mPOST /assign-mentor HTTP/1.1[0m" 302 -
+2026-06-26 16:47:21,702 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:21] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:47:21,732 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:47:21,738 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:21] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:47:26,990 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:26] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:47:27,017 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:47:27,031 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:27] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:47:30,403 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:30] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:47:30,464 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:47:30,469 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:30] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:47:34,238 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:34] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:47:34,296 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:47:34,302 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:34] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:47:35,791 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:35] "GET /view-mentors HTTP/1.1" 200 -
+2026-06-26 16:47:35,838 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:35] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:47:35,840 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:47:40,141 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:40] "GET / HTTP/1.1" 200 -
+2026-06-26 16:47:40,171 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:47:40,175 | INFO | 127.0.0.1 - - [26/Jun/2026 16:47:40] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:51:16,928 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-26 16:51:16,928 | INFO | [33mPress CTRL+C to quit[0m
+2026-06-26 16:51:16,945 | INFO |  * Restarting with watchdog (windowsapi)
+2026-06-26 16:51:17,189 | WARNING |  * Debugger is active!
+2026-06-26 16:51:17,189 | INFO |  * Debugger PIN: 112-505-496
+2026-06-26 16:51:23,170 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:23] "GET / HTTP/1.1" 200 -
+2026-06-26 16:51:23,328 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:51:23,333 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:23] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:51:26,858 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:26] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:51:26,900 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:51:26,905 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:26] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:51:27,762 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:27] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:51:27,815 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:51:27,820 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:27] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:51:28,735 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:28] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:51:28,792 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:51:28,798 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:28] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:51:29,941 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:29] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:51:30,009 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:51:30,013 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:30] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:51:30,822 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:30] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:51:30,844 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:51:30,847 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:30] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:51:31,601 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:31] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:51:31,661 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:51:31,663 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:31] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:51:32,497 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:32] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:51:32,554 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:51:32,558 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:32] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:51:33,864 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:33] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:51:33,932 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:51:33,936 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:33] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:51:34,700 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:34] "GET /view-mentors HTTP/1.1" 200 -
+2026-06-26 16:51:34,755 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:51:34,759 | INFO | 127.0.0.1 - - [26/Jun/2026 16:51:34] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:52:11,311 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:11] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:52:11,366 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:52:11,371 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:11] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:52:12,215 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:12] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:52:12,277 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:52:12,280 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:12] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:52:13,134 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:13] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:52:13,170 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:52:13,191 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:13] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:52:14,477 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:14] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:52:14,531 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:52:14,536 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:14] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:52:15,244 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:15] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:52:15,297 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:52:15,301 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:15] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:52:16,226 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:16] "GET /view-mentors HTTP/1.1" 200 -
+2026-06-26 16:52:16,285 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:52:16,292 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:16] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:52:17,924 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:17] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:52:17,959 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:52:17,963 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:17] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:52:18,788 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:18] "GET /about HTTP/1.1" 200 -
+2026-06-26 16:52:18,817 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:52:18,838 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:18] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:52:19,942 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:19] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:52:20,005 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:52:20,008 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:20] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:52:21,178 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:21] "GET / HTTP/1.1" 200 -
+2026-06-26 16:52:21,230 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:52:21,239 | INFO | 127.0.0.1 - - [26/Jun/2026 16:52:21] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:53:47,222 | INFO | 127.0.0.1 - - [26/Jun/2026 16:53:47] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:53:47,264 | INFO | 127.0.0.1 - - [26/Jun/2026 16:53:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:53:47,271 | INFO | 127.0.0.1 - - [26/Jun/2026 16:53:47] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:53:50,135 | INFO | 127.0.0.1 - - [26/Jun/2026 16:53:50] "GET / HTTP/1.1" 200 -
+2026-06-26 16:53:50,198 | INFO | 127.0.0.1 - - [26/Jun/2026 16:53:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:53:50,200 | INFO | 127.0.0.1 - - [26/Jun/2026 16:53:50] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:08,521 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:08] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:55:08,564 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:08,564 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:08] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:09,266 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:09] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:55:09,324 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:09,331 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:09] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:13,389 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:13] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:55:13,431 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:13,434 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:13] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:15,670 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:15] "GET /about HTTP/1.1" 200 -
+2026-06-26 16:55:15,729 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:15,732 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:15] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:16,460 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:16] "GET / HTTP/1.1" 200 -
+2026-06-26 16:55:16,500 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:16,505 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:16] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:18,270 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:18] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:55:18,318 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:18] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-26 16:55:18,329 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:18] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:27,904 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:27] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:55:27,948 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:27,956 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:27] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:32,869 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:32] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:55:32,908 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:32] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:55:38,119 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:38] "GET /view-mentors HTTP/1.1" 200 -
+2026-06-26 16:55:38,170 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:38,173 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:38] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:39,164 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:39] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:55:39,203 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:39,217 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:39] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:40,048 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:40] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:55:40,111 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:40,114 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:40] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:42,761 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:42] "GET / HTTP/1.1" 200 -
+2026-06-26 16:55:42,816 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:42,825 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:42] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:43,871 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:43] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:55:43,935 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:43,943 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:43] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:47,790 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:47] "GET / HTTP/1.1" 200 -
+2026-06-26 16:55:47,835 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:47,897 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:47] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:49,158 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:49] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:55:49,207 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:49,214 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:49] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:55:51,264 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:51] "GET / HTTP/1.1" 200 -
+2026-06-26 16:55:51,335 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:55:51,340 | INFO | 127.0.0.1 - - [26/Jun/2026 16:55:51] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:57:00,258 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:00] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:57:00,314 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:57:00,318 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:00] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:57:00,992 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:00] "GET /about HTTP/1.1" 200 -
+2026-06-26 16:57:01,057 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:57:01,062 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:01] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:57:02,897 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:02] "GET /add-intern HTTP/1.1" 200 -
+2026-06-26 16:57:02,960 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:57:02,965 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:02] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:57:05,519 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:05] "GET /view-interns HTTP/1.1" 200 -
+2026-06-26 16:57:05,542 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:57:05,557 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:05] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:57:06,486 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:06] "GET /add-mentor HTTP/1.1" 200 -
+2026-06-26 16:57:06,514 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:57:06,517 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:06] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2026-06-26 16:57:08,191 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:08] "GET /view-mentors HTTP/1.1" 200 -
+2026-06-26 16:57:08,225 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-26 16:57:08,227 | INFO | 127.0.0.1 - - [26/Jun/2026 16:57:08] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -

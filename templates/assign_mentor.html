@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign Mentor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="sidebar">
+    <div class="logo">
+        <img src="{{ url_for('static', filename='logo.jpg') }}" alt="TESRECO">
+        <h2>TESRECO</h2>
+        <p>Intern Management Portal</p>
+    </div>
+
+    <ul>
+        <li><a href="/">🏠 Dashboard</a></li>
+        <li><a href="/about">🏢 About</a></li>
+        <li><a href="/add-intern">➕ Register Intern</a></li>
+        <li><a href="/view-interns">👨‍🎓 View Interns</a></li>
+        <li><a href="/add-mentor">👨‍🏫 Add Mentor</a></li>
+        <li><a href="/view-mentors">📋 View Mentors</a></li>
+    </ul>
+</div>
+
+<div class="main">
+    <div class="topbar">
+        <h1>Assign Mentor</h1>
+        <div class="profile">🔔 Administrator</div>
+    </div>
+
+    <div class="form-box compact-form">
+        <h1>Mentor Assignment</h1>
+
+        <form action="/assign-mentor" method="POST">
+            <label>Select Intern</label>
+            <select name="intern_id" required>
+                <option value="">Choose Intern</option>
+                {% for intern in interns %}
+                <option value="{{ intern['id'] }}">
+                    {{ intern['name'] }} - {{ intern['domain'] }}
+                </option>
+                {% endfor %}
+            </select>
+
+            <label>Select Mentor</label>
+            <select name="mentor_id" required>
+                <option value="">Choose Mentor</option>
+                {% for mentor in mentors %}
+                <option value="{{ mentor['mentor_id'] }}">
+                    {{ mentor['name'] }} - {{ mentor['specialization'] }}
+                </option>
+                {% endfor %}
+            </select>
+
+            <button type="submit">Assign Mentor</button>
+        </form>
+    </div>
+
+    <div class="footer">© 2026 TESRECO Technologies | Internship Management Portal</div>
+</div>
+
+</body>
+</html>
